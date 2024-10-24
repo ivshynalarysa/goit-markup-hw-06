@@ -48,11 +48,31 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+
+        <!--mobile menu-->
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">Close</button>
+          <nav class="mobile-menu-nav"></nav>
+          <address></address>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main class="main">
       <!--section 1-->
-      <section class="section section-main-title">
+      <section class="section section-main-title hidden">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
@@ -61,7 +81,7 @@
 
       <!--section 2-->
 
-      <section class="section politics-section">
+      <section class="section politics-section hidden">
         <div class="container">
           <h2 class="politics-title visually-hidden">title2</h2>
           <ul class="values-list">
@@ -118,7 +138,7 @@
       </section>
       <!--section 3-->
 
-      <section class="section ourteam-section">
+      <section class="section ourteam-section hidden">
         <div class="container">
           <h2 class="ourteam-title">Our Team</h2>
           <ul class="ourteam-list">
@@ -301,7 +321,7 @@
 
       <!--section 4-->
 
-      <section class="section ourportfolio-section">
+      <section class="section ourportfolio-section hidden">
         <div class="container">
           <h2 class="outportfolio-title">Our Portfolio</h2>
           <ul class="outportfolio-list">
@@ -437,7 +457,7 @@
 
     <!--footer-->
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-container">
         <div class="logo-container">
           <a class="logofooter" href="./index.html"
@@ -509,7 +529,7 @@
 
     <!--modal window-->
 
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-icon-close" width="8" height="8">
@@ -537,7 +557,7 @@
             <div class="modal-input-wrap">
               <input
                 class="modal-input"
-                type="number"
+                type="tel"
                 name="user-phone"
                 id="user-phone"
               />
