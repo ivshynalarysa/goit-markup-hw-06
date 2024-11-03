@@ -870,11 +870,10 @@ button {
   .subscribe {
     max-width: 453px;
     height: 80px;
+    align-items: flex-start;
   }
 
-  .subscribe-title {
-    margin-right: 378px;
-  }
+  
   .form-footer {
     display: flex;
     gap: 24px;
