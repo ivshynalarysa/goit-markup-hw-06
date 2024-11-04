@@ -270,23 +270,31 @@ button {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   margin-bottom: 168px;
 }
+.mobile-menu-link {color: #2e2f42;}
 
-.mobil-menu-tel {
-  color: #434455;
+.mobil-navi-studio {
+  color: #404bbf;
 }
+.mobil-menu-email {}
+
+
+
 .mobile-menu-address {
   margin-bottom: 48px;
 }
 .mobile-menu-address-list {
+  font-style: normal;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24px;
 }
+.mobile-menu-link-address {color: #434455;}
+.mobil-menu-tel {color: #4d5ae5;}
+
 .mobile-menu-social-list {
   display: flex;
   gap: 40px;
@@ -502,7 +510,7 @@ button {
     line-height: 1.2;
   }
   .values-p {
-    font-size: 400;
+    font-weight: 400;
   }
   .values-icon {
     display: flex;
@@ -724,6 +732,8 @@ button {
   background-color: #2e2f42;
   padding: 96px 0;
 }
+.logo-container {margin-bottom: 72px;}
+
 .logofooter {
   justify-content: center;
   font-family: "Raleway", sans-serif;
@@ -735,7 +745,7 @@ button {
   color: #4d5ae5;
   display: flex;
   margin-bottom: 16px;
-}
+  }
 .logofooter .logo-color {
   color: #f4f4fd;
 }
@@ -744,8 +754,9 @@ button {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 288px;
-  margin-bottom: 72px;
+  
 }
+.footer-social-media {margin-bottom: 72px;}
 .footer-title-social-media {
   text-align: center;
   font-weight: 500;
@@ -759,9 +770,9 @@ button {
   display: flex;
   gap: 16px;
   justify-content: center;
-  padding-top: 8px;
+  
   padding-left: 0;
-  margin-bottom: 72px;
+  
 }
 .footer-link {
   display: flex;
@@ -799,7 +810,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+
 }
 
 .subscribe-title {
@@ -808,6 +819,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .subscribe-btn {
@@ -891,7 +903,9 @@ button {
   }
   .logo-container {
     margin-right: 120px;
+    margin-bottom: 0;
   }
+  .footer-social-media {margin-bottom: 0;}
   .footer-link:hover,
   .footer-link:focus {
     background-color: #31d0aa;
@@ -904,7 +918,7 @@ button {
   }
   .subscribe-title {
     margin-right: 0;
-    margin-bottom: 16px;
+   
   }
 }
 
