@@ -277,20 +277,22 @@ button {
 .mobil-navi-studio {
   color: #404bbf;
 }
-.mobil-menu-email {}
-
-
 
 .mobile-menu-address {
   margin-bottom: 48px;
 }
 .mobile-menu-address-list {
   font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24px;
+
 }
 .mobile-menu-link-address {color: #434455;}
 .mobil-menu-tel {color: #4d5ae5;}
